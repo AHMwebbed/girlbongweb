@@ -127,10 +127,11 @@ flex-wrap: wrap;
         order:3
 }
 .splat{
-     min-width:100%;
+     min-width:95%;
      /* padding:1cm; */
      border:2px dashed rgba(0, 255, 98, 0.253); 
          background-color: rgba(0, 255, 55, 0.075);
+    padding:.5cm;
 }
 .newbar{
      /* flex-grow: 1; */
