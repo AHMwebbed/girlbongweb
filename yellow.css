@@ -1,0 +1,35 @@
+body{
+    padding-top: 1in;
+    text-align: center;
+    background-image: url('https://files.catbox.moe/cf60ip.jpg');
+    background-size: cover;
+    color:rgb(46, 47, 42);
+    zoom: 150%;
+    
+}
+section {
+    padding: 50px;
+    background-color: #404040;
+    background-size: contain;
+}
+
+img{
+    /* border:; */
+    align-content: center;
+    height: auto;
+    width: auto;
+    box-shadow: 1in;
+}
+div{
+  font-size: 1rem;
+}
+li{
+  text-align: start;
+}
+.window-body {
+  background-color: #e9e8de;
+  border: 1px solid var(--w7-w-bd);
+  box-shadow: 0 0 0 1px #fff9;
+  margin: var(--w7-w-space);
+  margin-top: 0;
+}
