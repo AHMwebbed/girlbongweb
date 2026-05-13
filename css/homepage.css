@@ -165,10 +165,11 @@ width: 100%;
 .support{
         position: fixed;
  height: 300PX;
-    max-width: 20%;
-    top:.5cm;
+
+   bottom:.5cm;
     right:.5cm;
      transition: transform .2s;
+     
 }
 .container{
     /* width:%; */
