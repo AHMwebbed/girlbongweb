@@ -1,35 +1,33 @@
 body{
     padding-top: 1in;
-    text-align: center;
+    align-content: center;
     background-image: url('https://files.catbox.moe/cf60ip.jpg');
     background-size: cover;
-    color:rgb(46, 47, 42);
     zoom: 150%;
-    
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
-section {
-    padding: 50px;
-    background-color: #404040;
-    background-size: contain;
+.container{
+ border: 5px solid rgb(255, 0, 0);
+ 
 }
-
-img{
-    /* border:; */
-    align-content: center;
-    height: auto;
-    width: auto;
-    box-shadow: 1in;
+.contained{
+  
+ background-color: #e9e8de;
+  padding: 20px;
+max-width: 70%;
+    /* border: 5px solid white; */
 }
-div{
-  font-size: 1rem;
+.list{
+ padding: 50px;
+  background-color: #979683;
+  border: .5cm inset #b1af9d71; i
 }
-li{
-  text-align: start;
-}
-.window-body {
-  background-color: #e9e8de;
-  border: 1px solid var(--w7-w-bd);
-  box-shadow: 0 0 0 1px #fff9;
-  margin: var(--w7-w-space);
-  margin-top: 0;
-}
+.back{
+    /* border: 5px solid white; */
+    position: fixed;
+    top:1cm;
+    left:35%;
+    width:.6in;
+    height: .6in;
