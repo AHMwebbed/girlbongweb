@@ -42,7 +42,7 @@ img:hover{
 }
 .head img{
     height: 120%;
-    /* object-fit:; */
+    object-fit: contain;
     align-self: center;
     z-index: 10;
 }
