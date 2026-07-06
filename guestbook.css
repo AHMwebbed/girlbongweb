@@ -12,7 +12,6 @@ a{
 }
 img{
     height: auto;
-    width: max-content;
     transition: transform 0.3s ease-in-out;
 }
 img:hover{
