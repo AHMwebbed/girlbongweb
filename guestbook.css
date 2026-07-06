@@ -8,14 +8,12 @@ a{
     align-self: center;
     color: white;
     text-decoration: none;
-    
 
 }
 img{
     height: auto;
     width: max-content;
     transition: transform 0.3s ease-in-out;
-    z-index: 10;
 }
 img:hover{
     transform: scale(1.01);
@@ -23,7 +21,7 @@ img:hover{
 }
 .body{
     /* border: 10px solid red; */
-    /* color: blue; */
+    color: blue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -40,7 +38,7 @@ img:hover{
     justify-content: center;
     background-image: url('images/1025.png');
     background-size: 200px;
-    z-index: 10;
+
     /* background-repeat: no-repeat; */
 }
 .head img{
