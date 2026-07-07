@@ -280,17 +280,19 @@ border: 7px outset rgba(46, 46, 46, 0.623);
 }
 .navbar{
     /* border: 10px solid blue;  */
-    height: vh;
-    width: 430PX;
-    display:
+    flex-wrap: wrap;
+    width: max-content;
+    height: max-content;
+    display:;   
     justify-content: center;
     padding
 
 }
 .navbutton{
+    width: min-content;
     border: 7px outset rgba(46, 46, 46, 0.623);
     padding: 10px;
-    font-size: 40px;
+    font-size: 30px;
     background-color : rgb(90, 90, 90);
     background-blend-mode: lighten;
     /* background-image: url('images/dkgrnmarblejade.webp'); */
@@ -302,7 +304,9 @@ border: 7px outset rgba(46, 46, 46, 0.623);
     background-blend-mode: multiply;
 }
 .buttons{
+        flex-wrap: wrap;
     display: flex;
+    justify-content: center;
     gap: 10px;
     background-image: url('images/dkgrnmarblejade.webp');
     /* padding: 10px; */
