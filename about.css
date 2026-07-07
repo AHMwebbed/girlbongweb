@@ -282,6 +282,9 @@ border: 10px outset rgba(46, 46, 46, 0.623);
 }
 }
 @media (max-width: 500px) {
+    body{
+    zoom: 2.25;
+}
 .head{
     border: 10px inset rgb(133, 133, 133);
     height: 17vh;
