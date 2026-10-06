@@ -1,0 +1,41 @@
+body{
+padding: 10%;
+margin:  5%;
+border: 10px inset;
+font-size: large;
+background-image: url(imgs/ppr.jpg);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+color: orange;
+}
+
+img{
+    width:25%;
+    height: auto;
+    border: inset;
+    margin:2.5%;
+}
+.ddl{
+    width: 15%;
+    margin: 0%;
+
+
+}
+.bnk{
+    border: none;
+    height: 10%;
+    width:auto;
+    position:fixed;
+    top:2.25%;
+    left:0.07%;
+    background-color: white;
+    
+}
+.fuck{
+background-color: rgb(182, 182, 182);
+height: 2px;
+}
+
